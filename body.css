@@ -1,0 +1,383 @@
+#saving-div {
+  width : 100%;
+  height : 44px;
+  display : flex;
+  flex-direction: row;
+  justify-content : center;
+  align-items : center;
+  background-color : rgb(183,183,196);
+  font-size : 14px;
+  color : rgb(28,28,31);
+}
+
+#saving {
+  color : rgb(41,151,255);
+  text-decoration: underline;
+  white-space: nowrap;
+  cursor : pointer;
+}
+
+#arcade-div {
+  width : 100%;
+  height : 52px;
+  background-color : rgb(28,28,31);
+  display : flex;
+  flex-direction : row;
+  justify-content: center;
+  position : sticky;
+  top : 0px;
+  z-index :9999;
+}
+
+#innerarcade-div {
+  width : 80%;
+  height : 44px;
+  background-color : rgb(28,28,31);
+  display : flex;
+  flex-direction : row;
+  justify-content: space-between;
+}
+
+#applearcade-div {
+  width : 700px;
+  display : flex;
+  flex : 1fr;
+  align-items: center;
+  padding-left : 5px;
+}
+
+#applearcade {
+  color : white;
+  font-size : 21px;
+  font-style : solid;
+  font-weight : 650;
+}
+
+#partsofarcade-div{
+  height : 52px;
+  width : 274px;
+  display : flex;
+  flex-direction : row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right : 5px;
+}
+
+#overview-div {
+  height : 52px;
+  display : flex;
+  flex-direction : row;
+  justify-content : center;
+  align-items: center;
+}
+
+#overview {
+  color : gray;
+  font-size : 12px;
+  text-align : center;
+  font-weight : 400px;
+}
+
+#howtofilms-div {
+  height : 52px;
+  display : flex;
+  flex-direction : row;
+  justify-content : center;
+  align-items: center;
+  cursor : pointer;
+}
+
+#howtofilms {
+  color : #fefefe;
+  font-size : 12px;
+  text-align : center;
+  font-weight : 400px;
+}
+
+#howtofilms:hover {
+  color : rgb(41, 151, 255);
+}
+
+#tryitfree-div {
+  display : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items : center;
+}
+
+#tryitfree {
+  font-size : 12px;
+  font-style : solid;
+  font-weight : 400px;
+  border : none;
+  border-radius : 15px;
+  padding-left :15px;
+  padding-right : 15px;
+  padding-top : 6px;
+  padding-bottom: 6px;
+  background-color : rgb(255, 77, 69);
+  color : white;
+  white-space: nowrap;
+  cursor : pointer;
+}
+
+#tryitfree:hover {
+  opacity : 0.94;
+}
+
+#video {
+  width :100%;
+  object-fit: cover;
+}
+
+#video-div {
+  width : 100%;
+}
+
+#textfield-div {
+  width : 75%;
+  margin-top : 100px;
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#textfield {
+  color :rgb(29,29,31);
+  font-size : 48px;
+  font-weight : 600;
+  text-align : center;
+}
+
+#innertextfield {
+ color :rgb(255, 77, 69);
+}
+
+#text-div {
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#textfield-second-div {
+  margin-top : 50px;
+  width : 75%;
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#look-div{
+  margin-top : 20px;
+  width : 75%;
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#subscription-div {
+  display :flex;
+  flex-direction: row;
+  justify-content : center;
+  align-items: center;
+  margin-top : 75px;
+  margin-bottom: 75px;
+}
+
+#innersubscription-div {
+  width : 70%;
+  height : auto;
+  display : flex;
+  flex-direction : row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#innersubscription {
+  display : grid;
+  width : 250px;
+  grid-template-rows : 170px 60px;
+}
+
+#superinner-div-1 {
+  color : rgb(29,29,31);
+}
+
+#innertextsubscription-1 {
+ font-size : 17px;
+ font-weight : 700;
+ text-align: left;
+}
+
+#innertextsubscription-2 {
+  font-size : 32px;
+  font-weight : 700px;
+  text-align: left;
+}
+
+#divfortextspacing {
+  margin-top : 15px;
+  color : rgb(102, 102, 102);
+  font-size : 17px;
+  font-weight : 500;
+  text-align: left;
+  line-height: 22px;
+}
+
+#superinner-div-2 {
+  margin-top :15px;
+  display: flex;
+  flex-direction : row;
+  justify-content: left;
+  align-items: center;
+}
+
+#tryitfree-2 {
+  font-size : 17px;
+  padding-left : 22px;
+  padding-right : 22px;
+  padding-top :12px;
+  padding-bottom :12px;
+  background-color :rgb(255, 77, 69);
+  border : none;
+  font-weight :700;
+  border-radius : 22px;
+  color : white;
+}
+
+#tryitfree-2:hover {
+  opacity : 0.92;
+}
+
+#innertext-color {
+  color : rgb(0, 102, 204);
+}
+
+#goodtime-div { 
+  width : 1000px;
+  display :grid;
+  grid-template-rows: 90px 130px;
+}
+
+#goodtime1 {
+  color : rgb(29, 29, 31);
+  font-size :80px;
+  font-weight : 700;
+  line-height : 90px;
+  text-align :center;
+}
+
+#goodtime2 {
+  color : rgb(29, 29, 31);
+  font-size :22px;
+  font-weight :700;
+  height : 104px;
+  text-align:center;
+}
+
+#outergoodtime {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height : 194px;
+  width : 100%;
+  margin-top : 100px;
+  margin-bottom :100px;
+}
+
+#goodtime-1 {
+  display : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items: center;
+  height : 90px;
+  width : 100%;
+}
+
+#goodtime-2 {
+  display : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items: center;
+}
+
+#goodtime-div-2 {
+  width : 1000px;
+  display :grid;
+  grid-template-rows: 160px 130px;
+}
+
+#goodtime1-2{
+  color : rgb(29, 29, 31);
+  font-size :80px;
+  font-weight : 700;
+  line-height : 80px;
+  text-align :center;
+}
+
+#goodtime-1-2 {
+  display : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items: center;
+  height : 160px;
+  width : 100%;
+}
+
+#outergoodtime-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height : 264px;
+  width : 100%;
+  margin-top : 100px;
+  margin-bottom : 50px;
+}
+
+#outerproducts-div {
+  display : flex;
+  flex-direction : row;
+  justify-content : center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#middleproducts-div {
+  width  : 55%;
+  display : flex;
+  flex-direction : row;
+  justify-content:  space-between;
+  align-items: center;
+}
+
+#innerproducts-div {
+  display :grid;
+  grid-template-rows: 72px 40px;
+}
+
+#product-image {
+  height : 72px;
+  object-fit: cover;
+}
+
+#product-name {
+  color : rgb(29, 29, 31);
+  font-size : 20px;
+  font-weight : 600;
+  display : flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  margin-top :5px;
+}
+
+#product {
+  height : 72px;
+}
