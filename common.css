@@ -2,3 +2,9 @@ body {
  margin : 0px;
  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
+@media (max-width : 600px) {
+  #store-div,#mac-div,#ipad-div,#iphone-div,#watch-div,#airpods-div,#tvandhome-div,#entertainment-div,#accessories-div,#support-div {
+    opacity: 0;
+  }
+}
