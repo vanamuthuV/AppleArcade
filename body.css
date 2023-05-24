@@ -316,8 +316,9 @@
   color : rgb(29, 29, 31);
   font-size :80px;
   font-weight : 700;
-  line-height : 80px;
+  line-height : 75px;
   text-align :center;
+  height : 165px;
 }
 
 #goodtime-1-2 {
@@ -325,7 +326,7 @@
   flex-direction : row;
   justify-content: center;
   align-items: center;
-  height : 160px;
+  height : 165px;
   width : 100%;
 }
 
@@ -334,7 +335,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height : 264px;
+  height : 299px;
   width : 100%;
   margin-top : 100px;
   margin-bottom : 50px;
@@ -346,7 +347,7 @@
   justify-content : center;
   align-items: center;
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #middleproducts-div {
@@ -380,4 +381,25 @@
 
 #product {
   height : 72px;
+}
+
+
+#faq-outer-div {
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top :120px;
+}
+
+#faq-inner-div  {
+  width : 80%;
+  text-align : center;
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  color : rgb(29, 29, 31);
+  font-size: 80px;
+  font-weight : 700;
 }
