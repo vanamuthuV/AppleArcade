@@ -394,7 +394,13 @@
 
 #faq-inner-div  {
   width : 80%;
-  text-align : center;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#faq-question-div {
   display : flex;
   flex-direction: row;
   justify-content: center;
@@ -402,4 +408,42 @@
   color : rgb(29, 29, 31);
   font-size: 80px;
   font-weight : 700;
+  margin-bottom : 50px;
+}
+
+summary {
+  list-style: none;
+  font-size : 24px;
+  font-weight : 600;
+  color : rgb(29, 29, 31);
+  padding-top : 28px;
+  padding-bottom : 28px;
+}
+
+#summary-div {
+  display: flex;
+  flex-direction : row;
+  justify-content :space-between;
+  align-items : center; 
+}
+
+#faq-1-div {
+  height : 76px;
+  margin-bottom : 4px;
+  padding-left  :10px;
+  padding-right : 10px;
+  cursor : pointer;
+}
+
+#faq-answer {
+  font-size : 17.5px;
+  color : rgb(29, 29, 31);
+  font-weight : 400;
+ line-height : 25px;
+}
+
+summary div span {
+   color : rgb(29, 29, 31);
+   transform: rotate(90deg);
+   display: inline-block;
 }
