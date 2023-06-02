@@ -1,1 +1,1 @@
-alert("Website Under Development !! THANK YOU FOR VISITING \n Click \" OK \" to glimpse the website");
+alert("Website Under Development !! \n Click \" OK \" to glimpse the website \n Switch to desktop Site mode for better Experience");
