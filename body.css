@@ -418,6 +418,7 @@ summary {
   color : rgb(29, 29, 31);
   padding-top : 28px;
   padding-bottom : 28px;
+  display: inline-block;
 }
 
 #summary-div {
@@ -433,6 +434,7 @@ summary {
   padding-left  :10px;
   padding-right : 10px;
   cursor : pointer;
+  border-bottom-color: gray;
 }
 
 #faq-answer {

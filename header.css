@@ -25,6 +25,11 @@
   align-items: center;
 }
 
+
+#logo {
+  color : "gray";
+}
+
 #logo,#search,#bag{
   width : 15px;
   height : 18px;

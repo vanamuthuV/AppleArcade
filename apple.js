@@ -1,1 +1,1 @@
-//alert("Website Under Development")
+alert("Website Under Development !! THANK YOU FOR VISITING \n Click \" OK \" to glimpse the website");
