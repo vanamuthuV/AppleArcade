@@ -299,7 +299,7 @@
   width : 100%;
 }
 
-#goodtime-2 {
+#goodtime-2,#Arcade-image,#outer-section{
   display : flex;
   flex-direction : row;
   justify-content: center;
@@ -383,69 +383,133 @@
   height : 72px;
 }
 
-
-#faq-outer-div {
+#outerposter-div {
   display : flex;
-  flex-direction: row;
+  flex-direction : column;
   justify-content: center;
-  align-content: center;
-  margin-top :120px;
+  align-items: center;
+  margin-top : 250px;
+  margin-bottom : 120px;
 }
 
-#faq-inner-div  {
+#poster-div,#poster-words-div#poster-button-div{
   width : 80%;
   display : flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-
-#faq-question-div {
-  display : flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  color : rgb(29, 29, 31);
-  font-size: 80px;
-  font-weight : 700;
-  margin-bottom : 50px;
-}
-
-summary {
-  list-style: none;
-  font-size : 24px;
-  font-weight : 600;
-  color : rgb(29, 29, 31);
-  padding-top : 28px;
-  padding-bottom : 28px;
-  display: inline-block;
-}
-
-#summary-div {
-  display: flex;
   flex-direction : row;
-  justify-content :space-between;
-  align-items : center; 
+  justify-content: center;
+  align-items: center;
 }
 
-#faq-1-div {
-  height : 76px;
-  margin-bottom : 4px;
-  padding-left  :10px;
-  padding-right : 10px;
-  cursor : pointer;
-  border-bottom-color: gray;
+#poster-words-div>p {
+  text-align : center;
+  color :rgb(29, 29, 31);
+  font-size : 32px;
+  font-weight : 600;
+  line-height : 36px;
+  margin-bottom : 0px;
 }
 
-#faq-answer {
-  font-size : 17.5px;
-  color : rgb(29, 29, 31);
+#inner-arcade-poster {
+  width : 50%;
+}
+
+#inner-poster-div {
+  width : 68%;
+  display: flex;
+  flex-direction : column;
+  justify-content : center;
+  align-items: center;
+}
+
+#poster-words-div,#Arcade-words-div{
+  margin-top : 20px;
+  margin-bottom : 20px;
+}
+
+#poster-button {
+  background-color :rgb(47, 47, 49);
+  font-size : 17px;
+  padding-left : 30px;
+  padding-right : 30px;
+  padding-top : 15px;
+  padding-bottom : 15px;
+  font-weight : 600;
+  color : white;
+  border-radius : 28px;
+  border : none;
+}
+
+#poster-button-div,#arcade-learn-div {
+  margin-top : 4px;
+  margin-bottom : 30px;
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items: center;
+}
+
+#poster-learn {
+  color :rgb(0, 102, 204);
+  font-size :17px;
   font-weight : 400;
- line-height : 25px;
+  line-height: 25px;
+  cursor : pointer;
+  padding-top : 10px;
+  padding-bottom: 20px;
 }
 
-summary div span {
-   color : rgb(29, 29, 31);
-   transform: rotate(90deg);
-   display: inline-block;
+#poster-button:hover{
+  opacity : 0.93;
+  cursor : pointer;
+}
+
+#arcade-poster,#outer-section{
+  background-color :rgb(245, 245, 247);
+  height : auto;
+  padding-top : 20px;
+  margin-top : 50px;
+  margin-bottom : 25px;
+  display : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items: center;
+}
+
+#arcade-words {
+  color :rgb(29, 29, 31);
+  font-size : 19px;
+  font-weight : 600;
+  line-height : 23px;
+  text-align :center;
+}
+
+#Apple-Arcade-Red-Theme {
+  width : 61px;
+  height : 56px;
+}
+
+#arcade-word {
+  color :rgb(29, 29, 31);
+  font-size : 48px;
+  font-weight: 700;
+  line-height : 52px;
+  text-align : center;
+}
+
+#inner-section {
+  width : 80%;
+  border-bottom-color : rgb(173, 172, 172);
+  border-bottom-style: solid;
+  border-width : 1px;
+}
+
+#inner-section > ul > p , #inner-section > ol > p {
+  color :rgb(110, 110, 115);
+  font-size : 13px;
+  font-weight : 400;
+  line-height : 17px;
+}
+
+ul,ol{
+  padding-left : 0px;
 }
