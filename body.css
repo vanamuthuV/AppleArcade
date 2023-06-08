@@ -189,7 +189,7 @@
 }
 
 #innersubscription-div {
-  width : 80%;
+  width : 75%;
   height : auto;
   display : flex;
   flex-direction : row;
@@ -198,9 +198,10 @@
 }
 
 #innersubscription {
-  display : grid;
+  display : flex;
   width : 250px;
-  grid-template-rows : 170px 60px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #superinner-div-1 {
@@ -258,9 +259,11 @@
 }
 
 #goodtime-div { 
-  width : 1000px;
-  display :grid;
-  grid-template-rows: 90px 130px;
+  width : 70%;
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items: center;
 }
 
 #goodtime1 {
@@ -277,6 +280,7 @@
   font-weight :700;
   height : 104px;
   text-align:center;
+  line-height : 34px;
 }
 
 #outergoodtime {
@@ -297,6 +301,7 @@
   align-items: center;
   height : 90px;
   width : 100%;
+  margin-bottom : 20px;
 }
 
 #goodtime-2,#Arcade-image,#outer-section{
@@ -307,9 +312,11 @@
 }
 
 #goodtime-div-2 {
-  width : 1000px;
-  display :grid;
-  grid-template-rows: 160px 130px;
+  width : 68%;
+  display: flex;
+  flex-direction: column;
+  flex-direction: center;
+  align-items: center;
 }
 
 #goodtime1-2{
@@ -327,7 +334,8 @@
   justify-content: center;
   align-items: center;
   height : 165px;
-  width : 100%;
+  width : 70%;
+  margin-bottom: 20px;
 }
 
 #outergoodtime-2 {
@@ -337,8 +345,8 @@
   align-items: center;
   height : 299px;
   width : 100%;
-  margin-top : 100px;
-  margin-bottom : 50px;
+  margin-top : 200px;
+  margin-bottom : 75px;
 }
 
 #outerproducts-div {
@@ -384,6 +392,7 @@
 }
 
 #outerposter-div {
+  background-color :rgb(245, 245, 247);
   display : flex;
   flex-direction : column;
   justify-content: center;
@@ -414,11 +423,13 @@
 }
 
 #inner-poster-div {
+
   width : 68%;
   display: flex;
   flex-direction : column;
   justify-content : center;
   align-items: center;
+  padding-top : 75px;
 }
 
 #poster-words-div,#Arcade-words-div{
