@@ -3,6 +3,15 @@ body {
  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+li {
+  list-style-type: none;
+  color :rgb(66, 66, 69);
+  font-size : 12px;
+  font-weight : 400;
+  line-height : 26px;
+  
+}
+
 @media (max-width : 600px) {
   #store-div,#mac-div,#ipad-div,#iphone-div,#watch-div,#airpods-div,#tvandhome-div,#entertainment-div,#accessories-div,#support-div {
     opacity: 0;

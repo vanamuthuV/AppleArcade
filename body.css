@@ -525,6 +525,56 @@ ul,ol{
   padding-left : 0px;
 }
 
-#inner-section-div {
+#footer-apple {
+  width : 20px;
+  height : 20px;
+}
 
+#outer-section {
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer-intro {
+  width : 100%;
+}
+
+#inner-section-2 {
+  width : 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-intro {
+  color :rgb(29, 29, 31);
+  font-size : 12px;
+  font-weight : 600;
+  line-height : 16px;
+}
+
+#inner-footer-intro {
+  margin-top : 15px;
+  margin-bottom: 15px;
+  display : flex;
+  justify-content: space-between;
+  flex-direction : row;
+  align-items: center;
+  width : 18%;
+}
+
+#foot {
+  color :rgb(66, 66, 69);
+  font-size : 12px;
+  font-weight : 400px;
+  line-height : 16px;
 }
