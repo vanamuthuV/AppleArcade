@@ -9,7 +9,11 @@ li {
   font-size : 12px;
   font-weight : 400;
   line-height : 26px;
-  
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
 }
 
 @media (max-width : 600px) {

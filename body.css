@@ -280,7 +280,7 @@
   font-weight :700;
   height : auto;
   text-align:center;
-  line-height : 34px;
+  line-height : 28px;
 }
 
 #outergoodtime {
@@ -304,49 +304,11 @@
   margin-bottom : 20px;
 }
 
-#goodtime-2,#Arcade-image,#outer-section{
+#goodtime-2,#Arcade-image,#outer-section,#country-div{
   display : flex;
   flex-direction : row;
   justify-content: center;
   align-items: center;
-}
-
-#goodtime-div-2 {
-  width : 68%;
-  display: flex;
-  flex-direction: column;
-  flex-direction: center;
-  align-items: center;
-}
-
-#goodtime1-2{
-  color : rgb(29, 29, 31);
-  font-size :80px;
-  font-weight : 700;
-  line-height : 75px;
-  text-align :center;
-  height : 165px;
-}
-
-#goodtime-1-2 {
-  display : flex;
-  flex-direction : row;
-  justify-content: center;
-  align-items: center;
-  height : 165px;
-  width : 70%;
-  margin-bottom: 20px;
-}
-
-#outergoodtime-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height : 299px;
-  width : 100%;
-  margin-top : 200px;
-  margin-bottom : 75px;
 }
 
 #outerproducts-div {
@@ -367,8 +329,48 @@
 }
 
 #innerproducts-div {
-  display :grid;
-  grid-template-rows: 72px 40px;
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items: center;
+}
+
+#outer-play-div {
+  display : flex;
+  flex-direction : column;
+  width : 100%;
+  height : auto;
+  justify-content: center;
+  align-items: center;
+  margin-top : 100px;
+  margin-bottom: 50px;
+}
+
+#inner-play-div {
+  width : 40%;
+  height : auto;
+}
+
+#play-text {
+  color :rgb(29, 29, 31);
+  font-size : 80px;
+  font-weight : 700;
+  height: auto;
+  text-align : center;
+  margin : 0;
+}
+
+#inner-play-info-div {
+  width : 70%;
+  height: auto;
+}
+
+#play-info-div {
+  color : rgb(29, 29, 31);
+  font-size : 22px;
+  font-weight : 700;
+  text-align: center;
+  line-height: 28px;
 }
 
 #product-image {
@@ -535,6 +537,7 @@ ul,ol{
   flex-direction : column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0px;
 }
 
 #intro {
@@ -569,7 +572,7 @@ ul,ol{
   justify-content: space-between;
   flex-direction : row;
   align-items: center;
-  width : 18%;
+  width : 25%;
 }
 
 #foot {
@@ -577,4 +580,81 @@ ul,ol{
   font-size : 12px;
   font-weight : 400px;
   line-height : 16px;
+}
+
+#tofind-applestore {
+  width :80%;
+  border-bottom-color : rgb(173, 172, 172);
+  border-bottom-style: solid;
+  border-width : 1px;
+}
+
+#tofind-applestore > p {
+  color :rgb(110, 110, 115);
+  font-size : 12px;
+  font-weight : 400;
+  line-height: 16px;
+}
+#tofind-applestore > p > span {
+  color :rgb(0, 102, 204);
+  cursor: pointer;
+}
+
+#tofind-applestore-div {
+  margin-top: 0px;
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(245, 245, 247);
+}
+
+#outer-copyright-footer {
+  background-color: rgb(245, 245, 247);
+  display: flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items: center;
+}
+
+#inner-copyright-footer {
+  width : 80%;
+  height : auto;
+  display: flex;
+  flex-direction : row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#branch-copyright-div {
+  display : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  align-items: center;
+  width : 55%;
+}
+
+#copyright-footer {
+  width : 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#copyright,#country{
+  color :rgb(110, 110, 115) ;
+  font-size : 12px;
+  font-weight : 400;
+  line-height : 16px;
+}
+
+#branch-copyright-div > li {
+  color :rgb(66, 66, 69) ;
+  font-size:12px ;
+  font-weight: 400;
+  line-height: 16px;
+  padding-right : 8px;
+  border-right-color: gray;
+  border-right-style: solid;
+  border-width: 1px;
 }
