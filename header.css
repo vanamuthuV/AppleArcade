@@ -23,6 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 
@@ -31,9 +32,18 @@
 }
 
 #logo,#search,#bag{
-  width : 15px;
-  height : 18px;
-  fill : gray;
+  width : 34px;
+  height :44px;
+}
+
+#search{
+  width :34px;
+  height :44px;
+}
+
+#bag {
+  width : 34px;
+  height : 44px;
 }
 
 #store-div,#mac-div,#ipad-div,#iphone-div,#watch-div,#airpods-div,#tvandhome-div,#entertainment-div,#accessories-div,#support-div{
