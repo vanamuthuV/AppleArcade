@@ -189,7 +189,7 @@
 }
 
 #innersubscription-div {
-  width : 75%;
+  width : 70%;
   height : auto;
   display : flex;
   flex-direction : row;
@@ -199,13 +199,16 @@
 
 #innersubscription {
   display : flex;
-  width : 250px;
+  width : 28%;
   flex-direction: column;
   justify-content: center;
 }
 
 #superinner-div-1 {
   color : rgb(29,29,31);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #innertextsubscription-1 {
@@ -238,7 +241,7 @@
 }
 
 #tryitfree-2 {
-  font-size : 17px;
+  font-size : 16px;
   padding-left : 22px;
   padding-right : 22px;
   padding-top :12px;
@@ -634,7 +637,7 @@ ul,ol{
 }
 
 #copyright-footer {
-  width : 80%;
+  width : 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

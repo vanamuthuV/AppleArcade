@@ -1,0 +1,114 @@
+@media only screen and (max-width: 768px) {
+  #innerheader-div {
+    width : 95%;
+  }
+
+  #store-div,#mac-div,#ipad-div,#iphone-div,#watch-div,#airpods-div,#tvandhome-div,#entertainment-div,#accessories-div,#support-div {
+    opacity : 0;
+  }
+
+  #innerarcade-div {
+    width : 95%;
+  }
+
+  #overview-div,#howtofilms-div {
+    opacity : 0;
+  }
+
+  #saving-div {
+    font-size : 12px;
+  }
+
+  #textfield {
+    font-size : 32px;
+  }
+
+  #innersubscription-div {
+    flex-direction : column;
+  }
+
+  #innersubscription {
+    margin-top : 25px;
+    margin-bottom : 25px;
+  }
+
+  #innertextformedia {
+    text-align: center;
+  }
+
+  #superinner-div-2{
+    justify-content: center;
+  }
+
+  #superinner-div-1 {
+    align-items: center;
+  }
+
+  #innersubscription {
+    width : 60%;
+  }
+
+  #divfortextspacing {
+    text-align: center;
+  }
+
+  #goodtime1 {
+    font-size : 55px;
+    line-height: 55px;
+  }
+
+  #goodtime-div {
+    width : 90%;
+  }
+
+  #goodtime2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  #play-text {
+    font-size : 55px;
+    line-height: 55px;
+  }
+
+  #inner-play-div {
+    width : 90%;
+  }
+
+  #play-info-div {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  #inner-play-info-div {
+    width : 65%;
+  }
+
+  #middleproducts-div  {
+    width : 80%;
+  }
+
+  #posterbanner  {
+    width : 90%;
+  }
+
+  #poster-words-div>p {
+    font-size:26px ;
+    line-height:26px ;
+  }
+
+  #arcade-word {
+   font-size : 40px;
+   line-height: 40px;
+  }
+
+  #arcade-words {
+   font-size : 18px;
+   line-height: 18px;
+  }
+
+  #inner-section {
+    width : 100%;
+    margin-left : 40px;
+  }
+}
