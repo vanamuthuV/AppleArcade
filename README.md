@@ -8,7 +8,7 @@ Check out the live version [here](https://glittering-chaja-23943b.netlify.app/).
 
 ## Features
 
-- Responsive design mimicking the Apple Arcade interface.
+- Responsive design mimicking the [Apple Arcade](https://www.apple.com/in/apple-arcade/) interface.
 - Built with pure HTML and CSS.
 
 ## Getting Started
@@ -28,6 +28,10 @@ To clone and run this project locally:
     ```
 
 3. **Open the `index.html` file** in your browser to view the application.
+
+## References
+
+- Original Apple Arcade: [Apple Arcade Official Site](https://www.apple.com/in/apple-arcade/)
 
 ## License
 
